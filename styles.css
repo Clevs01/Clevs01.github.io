@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    font-size: 2em;
+    font-family: Times;
+    color: darkblue;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 15px;
+}
+
+td {
+    width: 15px;
+}
+
+input[type=number] {
+    width: 6em;
+    padding: 0.04em .4em;
+    height: 1.9em;
+    border: .4em solid red;
+    border-radius: 0.5em;
+}
+
+input[type=submit],
+input[type=reset] {
+    padding: .2em .2em;
+    color: fuchsia;
+    font-size: 1.5em;
+    font-weight: 900;
+    border-radius: .6em;
+}
+
+input[type=submit] {
+    background-color: darkgreen;
+    color: floralwhite;
+}
+
+input[type=reset] {
+    color: #f24a4f;
+    background-color: #0ebfdb;
+}
+
+span.label {
+    font-size: 2em;
+    font-family: monospace;
+}
