@@ -48,7 +48,7 @@ function makeGrid() {
     // Creating the a reset button
     /*   let resetBtn = $('<input type="reset" value="Reset">');
        $('#sizePicker').append(resetBtn);
-     */ //
+     */ 
     $("#colorPicker").hover(function () {
         $(this).css('cursor', 'pointer').attr('title', 'Hey dude! ... Pick a color of your choice');
     }, function () {
@@ -61,8 +61,8 @@ function makeGrid() {
     return;
 }
 // Creating the a reset button
-resetBtn = $('<input type="reset" value="Reset">');
-$('#sizePicker').append(resetBtn);
+let resetBtn = $('<input type="reset" value="Reset">');
+$('#sizePicker').append(resetBtn);https://github.com/Clevs01/Clevs01.github.io.git
 $("#colorPicker").hover(function () {
     $(this).css('cursor', 'pointer').attr('title', 'Hey dude! ... Click here and pick a color of your choice');
 }, function () {

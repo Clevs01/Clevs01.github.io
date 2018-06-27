@@ -42,9 +42,9 @@ p {
    background-color:black;
     color:#fff;
     text-align:center;
-    padding: 1em 5em;
-    font-size:1.2em;
-    font-weight:700;
+    padding: 1em 3em;
+    font-size:1.1em;
+    font-weight:500;
 }
 
 input[type=number] {
